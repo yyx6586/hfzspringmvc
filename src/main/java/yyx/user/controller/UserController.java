@@ -12,7 +12,7 @@ import yyx.util.StringUtils;
 
 @Controller
 @RequestMapping("/user")
-@CrossOrigin("*")
+@CrossOrigin("*")      //允许跨域请求
 public class UserController {
 
     @Autowired

@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5ad92e3-6068-4855-a429-f96d4011562b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/bean/AuthUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/bean/AuthUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/bean/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yyx/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yyx/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyx/user/bean/AuthUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyx/user/bean/AuthUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyx/user/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyx/user/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyx/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyx/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yyx/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yyx/user/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/bean/AuthUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/bean/AuthUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yyx/WEB-INF/classes/yyx/user/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,14 +69,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1585" />
+          <entry key="java" value="1599" />
           <entry key="txt" value="11" />
           <entry key="xml" value="144" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1585" />
+          <entry key="JAVA" value="1599" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="144" />
         </counts>
@@ -102,11 +88,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="506">
+              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#login#0;class#UserController#0" />
               </folding>
             </state>
           </provider>
@@ -157,9 +142,9 @@
         <option value="$PROJECT_DIR$/src/main/java/yyx/user/bean/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/yyx/user/bean/AuthUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/yyx/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/yyx/user/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/yyx/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -197,7 +182,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
@@ -259,7 +244,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,6 +371,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,13 +505,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28650000" />
+    <option name="totallyTimeSpent" value="28675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -723,11 +708,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/yyx/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="506">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#login#0;class#UserController#0" />
           </folding>
         </state>
       </provider>
