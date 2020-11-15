@@ -27,8 +27,22 @@ public class UserServiceImpl implements UserService {
         User user = list.get(0);
 
         AuthUser authUser = new AuthUser();
-        authUser.setUserId(user.getAccount());
-        authUser.setUserName(user.getName());
+        authUser.setUserAccount(user.getAccount());
+        authUser.setUserPassword(user.getPassword());
         return authUser;
+    }
+
+    @Override
+    public String regisetr(String account, String password) throws Exception {
+//        User user = new User();
+//        user.setAccount(account);
+//        user.setPassword(password);
+
+        try{
+            userDao.insertUser(account,password);
+        }catch (Exception e){
+            return e.getMessage();
+        }
+        return null;
     }
 }

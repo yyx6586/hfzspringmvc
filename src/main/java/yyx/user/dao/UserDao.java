@@ -11,11 +11,13 @@ import java.util.List;
 @Repository
 public class UserDao {
     private JdbcTemplate jdbcTemplate;
+
     @Autowired
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
+    //登录
     public List<User> selectUser(String account){
         String sql = "select * from user where account = '"+account+"'";
 
@@ -23,5 +25,17 @@ public class UserDao {
 
         List<User> list = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(User.class));
         return list;
+    }
+
+    //注册
+    public String insertUser(String account, String password){
+        String sql = "insert into user(account,password) values('"+account+"','"+password+"')";
+
+        try{
+            jdbcTemplate.execute(sql);
+        }catch (Exception e){
+            return e.getMessage();
+        }
+        return null;
     }
 }

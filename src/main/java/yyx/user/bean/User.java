@@ -7,18 +7,20 @@ public class User {
 
     private String name;
 
+    private String password;
+
+    private int role;
+
     private Date creat_time;
 
     private Date update_time;
-
-    private static final long serialVersionUID = 1L;
 
     public String getAccount() {
         return account;
     }
 
     public void setAccount(String account) {
-        this.account = account == null ? null : account.trim();
+        this.account = account;
     }
 
     public String getName() {
@@ -26,7 +28,23 @@ public class User {
     }
 
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getRole() {
+        return role;
+    }
+
+    public void setRole(int role) {
+        this.role = role;
     }
 
     public Date getCreat_time() {
