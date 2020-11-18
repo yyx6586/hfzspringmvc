@@ -29,6 +29,7 @@
     </bean>
 
     <import resource="spring/user/applicationContext-service.xml"/>
+    <import resource="spring/news/applicationContext-service.xml"/>
 
     <!-- 配置Jdbc模板 -->
     <bean class="org.springframework.jdbc.core.JdbcTemplate"
