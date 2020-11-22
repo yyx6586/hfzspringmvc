@@ -17,10 +17,24 @@ public class NewsDao {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    //获取旅游资讯
-    public List<News> selectNews(){
-        String sql = "select * from news";
+    //获取所有旅游资讯
+    public List<News> selectNewsList(){
+       String sql = "select * from news ORDER BY id DESC";
+       List<News> newsList = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(News.class));
+       return newsList;
+    }
+
+    //获取每页旅游资讯
+    public List<News> selectNews(int pageNo, int pageSize){
+        String sql = "select * from news ORDER BY id DESC limit "+(pageNo - 1) * pageSize+","+pageSize+"";
         List<News> list = jdbcTemplate.query(sql, new BeanPropertyRowMapper<>(News.class));
+        return list;
+    }
+
+    //获取某一篇旅游资讯信息
+    public List<News> selectNewsDetail(String id){
+        String sql = "select * from news where id = "+id+"";
+        List<News> list = jdbcTemplate.query(sql,new BeanPropertyRowMapper<>(News.class));
         return list;
     }
 }

@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class AuthUser implements Serializable {
     private String userAccount;
     private String userPassword;
+    private int userRole;
 
     public String getUserAccount() {
         return userAccount;
@@ -20,5 +21,13 @@ public class AuthUser implements Serializable {
 
     public void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
+    }
+
+    public int getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(int userRole) {
+        this.userRole = userRole;
     }
 }

@@ -29,6 +29,7 @@ public class UserServiceImpl implements UserService {
         AuthUser authUser = new AuthUser();
         authUser.setUserAccount(user.getAccount());
         authUser.setUserPassword(user.getPassword());
+        authUser.setUserRole(user.getRole());
         return authUser;
     }
 

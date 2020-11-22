@@ -8,6 +8,9 @@ import java.util.List;
 @Service
 public interface NewsService {
 
-    //获取旅游资讯
-    List<News> newsList() throws Exception;
+    //获取每页的旅游资讯
+    List<List> newsList(int pageNo, int pageSize) throws Exception;
+
+    //获取某一旅游资讯信息
+    List<News> newsDetail(String id) throws Exception;
 }
