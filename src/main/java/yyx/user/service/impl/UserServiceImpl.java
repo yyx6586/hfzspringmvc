@@ -34,7 +34,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public String regisetr(String account, String password) throws Exception {
+    public String register(String account, String password) throws Exception {
 //        User user = new User();
 //        user.setAccount(account);
 //        user.setPassword(password);

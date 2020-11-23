@@ -10,7 +10,6 @@ import yyx.news.service.NewsService;
 import yyx.util.JSONUtil;
 import yyx.util.StringUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Controller

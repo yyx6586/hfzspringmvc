@@ -68,7 +68,7 @@ public class UserController {
         }
 
         try{
-            userService.regisetr(account, password);
+            userService.register(account, password);
             jsonUtil.setCode(1);
             jsonUtil.setMsg("注册成功");
         } catch (Exception e) {

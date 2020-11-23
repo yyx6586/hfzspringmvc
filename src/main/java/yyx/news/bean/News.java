@@ -8,7 +8,7 @@ public class News {
     private String title;
     private String content;
     private String release_time;
-    private Date creat_time;
+    private Date create_time;
     private Date update_time;
 
     public String getId() {
@@ -51,12 +51,12 @@ public class News {
         this.release_time = release_time;
     }
 
-    public Date getCreat_time() {
-        return creat_time;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setCreat_time(Date creat_time) {
-        this.creat_time = creat_time;
+    public void setCreate_time(Date creat_time) {
+        this.create_time = creat_time;
     }
 
     public Date getUpdate_time() {

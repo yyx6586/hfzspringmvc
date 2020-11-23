@@ -9,5 +9,5 @@ public interface UserService {
     AuthUser login(String account, String password) throws Exception;
 
     //注册
-    String regisetr(String account, String password) throws Exception;
+    String register(String account, String password) throws Exception;
 }

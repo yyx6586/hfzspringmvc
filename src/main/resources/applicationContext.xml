@@ -30,6 +30,7 @@
 
     <import resource="spring/user/applicationContext-service.xml"/>
     <import resource="spring/news/applicationContext-service.xml"/>
+    <import resource="spring/scene_picture/applicationContext-service.xml"/>
 
     <!-- 配置Jdbc模板 -->
     <bean class="org.springframework.jdbc.core.JdbcTemplate"
